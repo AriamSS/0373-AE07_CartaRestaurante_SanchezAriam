@@ -1,0 +1,324 @@
+<menu>
+  <!-- ENTRANTES -->
+  <plato tipo="entrante">
+    <nombre>Tostones con Mojo</nombre>
+    <precio>12.00</precio>
+    <descripcion>Plátanos verdes fritos acompañados de salsa de ajo y limón</descripcion>
+    <calorias>250</calorias>
+    <ingredientes>
+      <categoria>vegano</categoria>
+      <categoria>sin gluten</categoria>
+    </ingredientes>
+    <imagen>img/tostones.jpg</imagen>
+  </plato>
+
+  <plato tipo="entrante">
+    <nombre>Yuca con Mojo</nombre>
+    <precio>10.00</precio>
+    <descripcion>Yuca hervida con salsa de ajo, limón y aceite</descripcion>
+    <calorias>200</calorias>
+    <ingredientes>
+      <categoria>vegano</categoria>
+      <categoria>sin gluten</categoria>
+    </ingredientes>
+    <imagen>img/yuca_mojo.jpg</imagen>
+  </plato>
+
+  <plato tipo="entrante">
+    <nombre>Ensalada de Aguacate</nombre>
+    <precio>9.00</precio>
+    <descripcion>Aguacate fresco en rodajas con cebolla y aliño</descripcion>
+    <calorias>180</calorias>
+    <ingredientes>
+      <categoria>vegano</categoria>
+    </ingredientes>
+    <imagen>img/ensalada_aguacate.jpg</imagen>
+  </plato>
+
+  <plato tipo="entrante">
+    <nombre>Chicharrones de Cerdo</nombre>
+    <precio>13.00</precio>
+    <descripcion>Trozos de cerdo fritos y crujientes</descripcion>
+    <calorias>350</calorias>
+    <ingredientes>
+      <categoria>carne</categoria>
+    </ingredientes>
+    <imagen>img/chicharrones.jpg</imagen>
+  </plato>
+
+  <plato tipo="entrante">
+    <nombre>Tamal en Hoja</nombre>
+    <precio>11.00</precio>
+    <descripcion>Maíz molido cocido con carne de cerdo, envuelto en hoja</descripcion>
+    <calorias>300</calorias>
+    <ingredientes>
+      <categoria>carne</categoria>
+      <categoria>maíz</categoria>
+    </ingredientes>
+    <imagen>img/tamal.jpg</imagen>
+  </plato>
+
+  <plato tipo="entrante">
+    <nombre>Croquetas de Jamón</nombre>
+    <precio>10.00</precio>
+    <descripcion>Deliciosas croquetas crujientes rellenas de jamón</descripcion>
+    <calorias>290</calorias>
+    <ingredientes>
+      <categoria>carne</categoria>
+      <categoria>lácteo</categoria>
+    </ingredientes>
+    <imagen>img/croquetas.jpg</imagen>
+  </plato>
+
+  <plato tipo="entrante">
+    <nombre>Empanadas Cubanas</nombre>
+    <precio>12.00</precio>
+    <descripcion>Empanadas rellenas de carne molida con especias</descripcion>
+    <calorias>320</calorias>
+    <ingredientes>
+      <categoria>carne</categoria>
+    </ingredientes>
+    <imagen>img/empanadas.jpg</imagen>
+  </plato>
+
+
+  <!-- PRINCIPALES -->
+  <plato tipo="principal">
+    <nombre>Ropa Vieja</nombre>
+    <precio>25.00</precio>
+    <descripcion>Carne desmenuzada en salsa de tomate con pimientos</descripcion>
+    <calorias>450</calorias>
+    <ingredientes>
+      <categoria>carne</categoria>
+    </ingredientes>
+    <imagen>img/ropa_vieja.jpg</imagen>
+  </plato>
+
+  <plato tipo="principal">
+    <nombre>Arroz con Pollo</nombre>
+    <precio>22.00</precio>
+    <descripcion>Arroz amarillo con pollo, pimientos y guisantes</descripcion>
+    <calorias>400</calorias>
+    <ingredientes>
+      <categoria>ave</categoria>
+      <categoria>sin gluten</categoria>
+    </ingredientes>
+    <imagen>img/arroz_pollo.jpg</imagen>
+  </plato>
+
+  <plato tipo="principal">
+    <nombre>Picadillo a la Habanera</nombre>
+    <precio>20.00</precio>
+    <descripcion>Carne molida con aceitunas, pasas y salsa de tomate</descripcion>
+    <calorias>380</calorias>
+    <ingredientes>
+      <categoria>carne</categoria>
+    </ingredientes>
+    <imagen>img/picadillo.jpg</imagen>
+  </plato>
+
+  <plato tipo="principal">
+    <nombre>Lechón Asado</nombre>
+    <precio>30.00</precio>
+    <descripcion>Carne de cerdo asada con mojo criollo</descripcion>
+    <calorias>500</calorias>
+    <ingredientes>
+      <categoria>carne</categoria>
+    </ingredientes>
+    <imagen>img/lechon_asado.jpg</imagen>
+  </plato>
+
+  <plato tipo="principal">
+    <nombre>Vaca Frita</nombre>
+    <precio>24.00</precio>
+    <descripcion>Carne de res frita con ajo y limón</descripcion>
+    <calorias>420</calorias>
+    <ingredientes>
+      <categoria>carne</categoria>
+    </ingredientes>
+    <imagen>img/vaca_frita.jpg</imagen>
+  </plato>
+
+  <plato tipo="principal">
+    <nombre>Pollo a la Barbacoa</nombre>
+    <precio>21.00</precio>
+    <descripcion>Pollo marinado y asado al estilo cubano</descripcion>
+    <calorias>390</calorias>
+    <ingredientes>
+      <categoria>ave</categoria>
+    </ingredientes>
+    <imagen>img/pollo_bbq.jpg</imagen>
+  </plato>
+
+  <plato tipo="principal">
+    <nombre>Fricasé de Pollo</nombre>
+    <precio>23.00</precio>
+    <descripcion>Pollo guisado con papas, aceitunas y salsa</descripcion>
+    <calorias>410</calorias>
+    <ingredientes>
+      <categoria>ave</categoria>
+    </ingredientes>
+    <imagen>img/fricase_pollo.jpg</imagen>
+  </plato>
+
+
+  <!-- CASEROS -->
+  <plato tipo="casero">
+    <nombre>Congrí</nombre>
+    <precio>14.00</precio>
+    <descripcion>Arroz mezclado con frijoles negros y tocino</descripcion>
+    <calorias>320</calorias>
+    <ingredientes>
+      <categoria>legumbres</categoria>
+    </ingredientes>
+    <imagen>img/congri.jpg</imagen>
+  </plato>
+
+  <plato tipo="casero">
+    <nombre>Moros y Cristianos</nombre>
+    <precio>13.00</precio>
+    <descripcion>Arroz blanco con frijoles negros cocidos por separado</descripcion>
+    <calorias>310</calorias>
+    <ingredientes>
+      <categoria>legumbres</categoria>
+    </ingredientes>
+    <imagen>img/moros_cristianos.jpg</imagen>
+  </plato>
+
+  <plato tipo="casero">
+    <nombre>Huevos Habaneros</nombre>
+    <precio>12.00</precio>
+    <descripcion>Huevos hervidos con salsa de tomate y guisantes</descripcion>
+    <calorias>270</calorias>
+    <ingredientes>
+      <categoria>huevo</categoria>
+    </ingredientes>
+    <imagen>img/huevos_habaneros.jpg</imagen>
+  </plato>
+
+  <plato tipo="casero">
+    <nombre>Boniato Glaseado</nombre>
+    <precio>10.00</precio>
+    <descripcion>Boniato cocido con azúcar moreno y canela</descripcion>
+    <calorias>230</calorias>
+    <ingredientes>
+      <categoria>vegano</categoria>
+    </ingredientes>
+    <imagen>img/boniato.jpg</imagen>
+  </plato>
+
+  <plato tipo="casero">
+    <nombre>Quimbombó con Carne</nombre>
+    <precio>17.00</precio>
+    <descripcion>Estofado de okra con carne de cerdo</descripcion>
+    <calorias>350</calorias>
+    <ingredientes>
+      <categoria>carne</categoria>
+    </ingredientes>
+    <imagen>img/quimbombo.jpg</imagen>
+  </plato>
+
+  <plato tipo="casero">
+    <nombre>Fufú de Plátano</nombre>
+    <precio>13.00</precio>
+    <descripcion>Plátano macho majado con ajo y chicharrones</descripcion>
+    <calorias>300</calorias>
+    <ingredientes>
+      <categoria>vegano</categoria>
+    </ingredientes>
+    <imagen>img/fufu.jpg</imagen>
+  </plato>
+
+  <plato tipo="casero">
+    <nombre>Calabaza Guisada</nombre>
+    <precio>11.00</precio>
+    <descripcion>Calabaza cocinada con cebolla y especias</descripcion>
+    <calorias>220</calorias>
+    <ingredientes>
+      <categoria>vegano</categoria>
+    </ingredientes>
+    <imagen>img/calabaza.jpg</imagen>
+  </plato>
+
+
+  <!-- POSTRES -->
+  <plato tipo="postre">
+    <nombre>Flan de Coco</nombre>
+    <precio>12.00</precio>
+    <descripcion>Flan cremoso con sabor a coco</descripcion>
+    <calorias>300</calorias>
+    <ingredientes>
+      <categoria>lácteo</categoria>
+    </ingredientes>
+    <imagen>img/flan_coco.jpg</imagen>
+  </plato>
+
+  <plato tipo="postre">
+    <nombre>Arroz con Leche</nombre>
+    <precio>10.00</precio>
+    <descripcion>Arroz cocido en leche con canela y limón</descripcion>
+    <calorias>280</calorias>
+    <ingredientes>
+      <categoria>lácteo</categoria>
+    </ingredientes>
+    <imagen>img/arroz_leche.jpg</imagen>
+  </plato>
+
+  <plato tipo="postre">
+    <nombre>Buñuelos Cubanos</nombre>
+    <precio>14.00</precio>
+    <descripcion>Buñuelos de yuca y boniato con almíbar de anís</descripcion>
+    <calorias>320</calorias>
+    <ingredientes>
+      <categoria>vegano</categoria>
+    </ingredientes>
+    <imagen>img/bunuelos.jpg</imagen>
+  </plato>
+
+  <plato tipo="postre">
+    <nombre>Turrón de Maní</nombre>
+    <precio>8.00</precio>
+    <descripcion>Dulce de maní con miel y azúcar</descripcion>
+    <calorias>250</calorias>
+    <ingredientes>
+      <categoria>vegano</categoria>
+      <categoria>sin gluten</categoria>
+    </ingredientes>
+    <imagen>img/turron_mani.jpg</imagen>
+  </plato>
+
+  <plato tipo="postre">
+    <nombre>Dulce de Leche Cortada</nombre>
+    <precio>10.00</precio>
+    <descripcion>Postre elaborado con leche cuajada y azúcar</descripcion>
+    <calorias>290</calorias>
+    <ingredientes>
+      <categoria>lácteo</categoria>
+    </ingredientes>
+    <imagen>img/leche_cortada.jpg</imagen>
+  </plato>
+
+  <plato tipo="postre">
+    <nombre>Casquitos de Guayaba</nombre>
+    <precio>11.00</precio>
+    <descripcion>Guayaba cocida en almíbar servida con queso crema</descripcion>
+    <calorias>310</calorias>
+    <ingredientes>
+      <categoria>fruta</categoria>
+      <categoria>lácteo</categoria>
+    </ingredientes>
+    <imagen>img/casquitos.jpg</imagen>
+  </plato>
+
+  <plato tipo="postre">
+    <nombre>Cascos de Mango</nombre>
+    <precio>9.00</precio>
+    <descripcion>Mango maduro cocido en almíbar</descripcion>
+    <calorias>260</calorias>
+    <ingredientes>
+      <categoria>fruta</categoria>
+      <categoria>vegano</categoria>
+    </ingredientes>
+    <imagen>img/mango.jpg</imagen>
+  </plato>
+</menu>
